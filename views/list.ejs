@@ -1,0 +1,31 @@
+<%- include ("header"); %>
+
+    <div class="box" id="heading">
+        <h1>
+            <%= day %>
+        </h1>
+    </div>
+
+    <div class="box">
+
+        <% for (var i=0; i<tasks.length; i++) { %>
+            <div class="item">
+                <input type="checkbox">
+                <p>
+                    <%= tasks[i] %>
+                </p>
+            </div>
+            <% } %>
+            
+        <form action="/" method="post" class="item">
+            <input type="text" name="task" placeholder="New task" autocomplete="off">
+            <button type="submite">+</button>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
