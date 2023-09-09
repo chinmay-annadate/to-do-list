@@ -1,2 +1,3 @@
-# To Do List app using Express.js, EJS and MongoDB
+# To Do List app using Express.js and EJS
 - Dynamic creation of lists
+- MongoDB used as database
